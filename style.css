@@ -1,11 +1,9 @@
-header {
-	width 10%;
+.fab{
+	font-size: 32px;
 }
 
-.headline {
-	font-size: 22px;
-}
-
-.nav {
-	text-align: center;
+.position{
+	position: absolute;
+	top: 100px;
+	right: 40px;
 }
