@@ -10,7 +10,6 @@
 }
 
 main{
-	width: 960px;
 	margin: 50px auto;
 }
 
@@ -21,9 +20,6 @@ main{
 	padding: 10px;
 	position: relative;
 	border: 1px solid #eee;
-}
-.blog-box:last-child{
-	margin-right: 0;
 }
 
 .blog-img1{
@@ -58,19 +54,18 @@ main{
 
 @media screen and (max-width: 768px){
 	.blog-box{
-		width: 100%;
+		width: 90%;
 		float: none;
+		margin: 0 auto;
+		margin-bottom: 20px;
 	}
 	.blog-img1{
-		width: 100%;
-		float: none;
+		text-align: center;
 	}
 	.blog-img2{
-		width: 100%;
-		float: none;
+		text-align: center;
 	}
 	.blog-img3{
-		width: 100%;
-		float: none;
+		text-align: center;
 	}
 }
