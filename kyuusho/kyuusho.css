@@ -11,6 +11,7 @@
 
 main{
 	margin: 50px auto;
+	width: 90%;
 }
 
 .blog-box{
@@ -54,7 +55,7 @@ main{
 
 @media screen and (max-width: 768px){
 	.blog-box{
-		width: 90%;
+		width: 100%;
 		float: none;
 		margin: 0 auto;
 		margin-bottom: 20px;
